@@ -22,7 +22,7 @@ annotation class ColorStateListAttribute(val attrName: String)
 
 @Retention(AnnotationRetention.RUNTIME)
 @Target(AnnotationTarget.FIELD)
-annotation class DimensionAttribute(val attrName: String, val defValue: Int)
+annotation class DimensionAttribute(val attrName: String, val defValue: Float)
 
 @Retention(AnnotationRetention.RUNTIME)
 @Target(AnnotationTarget.FIELD)
